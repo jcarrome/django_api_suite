@@ -22,5 +22,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("homepage/", include("homepage.urls")),
     path('demo/rest/api/', include('demo_rest_api.urls')),
-    path('', include('homepage.urls')),  # Agrega esta línea
+    path('', include('homepage.urls')),
+    path('landing/api/', include('landing_api.urls')),  # <-- Agrega esta línea
 ]
