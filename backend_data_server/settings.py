@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-i_ibrp8y15u9o0wf*gqjihuf)lf53+m6xm6&4)7bf8^()aq+$4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jcarrome.pythonanywhere.com']]
 
 # Application definition
 INSTALLED_APPS = [
@@ -105,6 +105,7 @@ USE_TZ = True
 # Archivos estáticos
 STATIC_URL = "static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, STATIC_URL)]
+STATIC_ROOT = "assets/"
 
 # Campo de clave primaria por defecto
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
